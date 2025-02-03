@@ -12,3 +12,10 @@ Set Up React Frontend: Create a React app to build the user interface for your p
 Set Up Node.js Backend: Build a basic Node.js server to prepare for adding APIs later.
 Configure Tailwind CSS: Add Tailwind CSS for easy, modern styling that works well on any screen size.
 Build Login Page: Design and develop the first page of your e-commerce app, focusing on both its look and functionality.
+
+**Milestone 3**
+Set up dedicated folders for organizing backend code effectively.
+Initialize and configure a Node.js server to handle API requests.
+Connect your application to MongoDB to store and manage data.
+Implement basic error handling to ensure your server runs smoothly.
+Update the README file to document your progress.
