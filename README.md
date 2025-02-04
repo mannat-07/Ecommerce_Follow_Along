@@ -19,3 +19,11 @@ Initialize and configure a Node.js server to handle API requests.
 Connect your application to MongoDB to store and manage data.
 Implement basic error handling to ensure your server runs smoothly.
 Update the README file to document your progress.
+
+**Milestone 4**
+
+Created a User Model: Our mentor explained how a MODEL in MVC architecture works and how it interacts with database.
+
+Created a User Controller: We got to know the purpose of a controller in MVC.
+
+Enable and Configure Multer: In the live session mentor told us what is a multer and what is it used for and how it can be configured to handle file uploads.
