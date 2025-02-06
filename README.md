@@ -4,7 +4,8 @@ Follow along project for sem 2.
 **Milestone 1**: *Project Overview*
 
 In todays live session our mentor introduced us to overall structure of MERN Stack.
-He taught us the foundational steps to set up the environment for future milestones, we created a new repository for our follow along project.
+He taught us the foundational steps to set up the environment for future milestones.
+We created a new repository for our follow along project.
 
 **Milestone 2**
 Organize Your Project: Separate your files into two main folders—one for the frontend and one for the backend.
@@ -23,7 +24,11 @@ Update the README file to document your progress.
 **Milestone 4**
 
 Created a User Model: Our mentor explained how a MODEL in MVC architecture works and how it interacts with database.
-
 Created a User Controller: We got to know the purpose of a controller in MVC.
-
 Enable and Configure Multer: In the live session mentor told us what is a multer and what is it used for and how it can be configured to handle file uploads.
+
+**Milestone 5**
+Create a Sign-Up page: Users enter details (Name, Email, Password) to register.
+Implement form validation: Ensure correct data format (e.g., valid email and secure password).
+Build frontend: Use HTML and CSS for the design.
+Document progress: Update the README file with what I've accomplished.
