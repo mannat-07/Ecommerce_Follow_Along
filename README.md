@@ -47,3 +47,27 @@ Store Complete User Data..
 Save the user's other information (e.g., name, email) along with the hashed password securely.
 Login with Hashed Password..
 During login, compare the entered password with the hashed password in the database using bcrypt for verification.
+
+**Milestone 7** 
+
+ *Learning Goals*  
+- Validate user credentials during login.  
+- Compare encrypted passwords securely.  
+
+ *Why Encrypt Passwords?* 
+- *Security*: Protects user data if the database is compromised.  
+- *Privacy*: Prevents storing passwords in plain text.  
+- *Compliance*: Meets security standards (GDPR, PCI-DSS).  
+- *Prevention*: Makes password theft harder with hashing.  
+
+ *How Login Authentication Works*  
+1. *User Inputs Credentials* → Email/username & password.  
+2. *Fetch User Data* → Check if the user exists in the database.  
+3. *Validate Password* → Use bcrypt to hash & compare with stored hash.  
+
+   *Steps to Implement*  
+1. *Create Login Endpoint* → Accept email/username & password.  
+2. *Retrieve User* → Fetch user data from the database.  
+3. *Verify Password* → Hash input & compare with stored hash.  
+
+ *Note:* Passwords are hashed (not decrypted). We compare hashes for authentication.
