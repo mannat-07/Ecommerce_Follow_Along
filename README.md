@@ -2,7 +2,7 @@
 Follow along project for sem 2.
 
 
-**Milestone 1**: *Project Overview*
+**Milestone 1**: *Project Overview*  
 
 In todays live session our mentor introduced us to overall structure of MERN Stack.
 He taught us the foundational steps to set up the environment for future milestones.
@@ -10,6 +10,7 @@ We created a new repository for our follow along project.
 
 
 **Milestone 2**
+
 Organize Your Project: Separate your files into two main folders—one for the frontend and one for the backend.
 Set Up React Frontend: Create a React app to build the user interface for your project.
 Set Up Node.js Backend: Build a basic Node.js server to prepare for adding APIs later.
@@ -18,6 +19,7 @@ Build Login Page: Design and develop the first page of your e-commerce app, focu
 
 
 **Milestone 3**
+
 Set up dedicated folders for organizing backend code effectively.
 Initialize and configure a Node.js server to handle API requests.
 Connect your application to MongoDB to store and manage data.
@@ -26,12 +28,14 @@ Update the README file to document your progress.
 
 
 **Milestone 4**
+
 Created a User Model: Our mentor explained how a MODEL in MVC architecture works and how it interacts with database.
 Created a User Controller: We got to know the purpose of a controller in MVC.
 Enable and Configure Multer: In the live session mentor told us what is a multer and what is it used for and how it can be configured to handle file uploads.
 
 
 **Milestone 5**
+
 Create a Sign-Up page: Users enter details (Name, Email, Password) to register.
 Implement form validation: Ensure correct data format (e.g., valid email and secure password).
 Build frontend: Use HTML and CSS for the design.
@@ -39,6 +43,7 @@ Document progress: Update the README file with what I've accomplished.
 
 
 **Milestone 6**
+
 Encrypt Password with bcrypt..
 Use bcrypt to hash the user's password during signup, ensuring it is stored securely and not in plain text.
 Save Hashed Password in Database..
@@ -69,3 +74,25 @@ Steps to Implement:-
 Create login endpoint for credentials.
 Fetch user data from the database.
 Hash input password and compare with stored hash.
+
+**Milestone 8**
+
+Learning Goals:-
+Create a card component for products.
+Display product cards on the homepage.
+
+Why Create Card Components..?
+Showcase products clearly and visually.
+Reusable design across pages.
+Improves user experience and interaction.
+Keeps the homepage organized.
+
+Displaying Multiple Product Cards:-
+Design a dynamic card component using props.
+Use array mapping to render multiple cards.
+Pass product info (name, price, image) to each card.
+Ensure consistent layout for all cards.
+
+Steps:-
+Create a reusable card component.
+Set up a grid or flexbox layout for the homepage.
