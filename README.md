@@ -96,3 +96,11 @@ Ensure consistent layout for all cards.
 Steps:-
 Create a reusable card component.
 Set up a grid or flexbox layout for the homepage.
+
+**Milestone 9**
+
+In this milestone we have created
+
+Create the form for products
+
+This form will take multiple product images images as input
