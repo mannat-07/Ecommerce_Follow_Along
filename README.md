@@ -104,3 +104,9 @@ In this milestone we have created
 Create the form for products
 
 This form will take multiple product images images as input
+
+**Milestone 10**
+
+In this milestone we have learnt how to write product schema.
+
+Learnt how to create an end point to validate and store product details in mongodb.
