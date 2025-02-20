@@ -121,3 +121,10 @@ Write an endpoint that will send data from extract and send data from mongodb.
 Receive data at frontend -How to display that data dynamically using product card created earlier.
 
 
+**Milestone 12**
+
+In this milestone we have learnt how to write an endpoint that will send data by filtering with my mail and send data from mongodb.
+
+Also how to receive data at frontend.
+
+How to display that data dynamically using product card created earlier.
