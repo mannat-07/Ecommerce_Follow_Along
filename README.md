@@ -110,3 +110,14 @@ This form will take multiple product images images as input
 In this milestone we have learnt how to write product schema.
 
 Learnt how to create an end point to validate and store product details in mongodb.
+
+
+**Milestone 11**
+
+In this milestone we have learnt how to"
+
+Write an endpoint that will send data from extract and send data from mongodb.
+
+Receive data at frontend -How to display that data dynamically using product card created earlier.
+
+
