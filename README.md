@@ -128,3 +128,12 @@ In this milestone we have learnt how to write an endpoint that will send data by
 Also how to receive data at frontend.
 
 How to display that data dynamically using product card created earlier.
+
+
+**Milestone 13**
+
+Goal: Learn how to update existing data in MongoDB and edit product details.  
+Backend: Write an endpoint to receive new data and update existing data in MongoDB.  
+Frontend: Add an edit button on product cards to trigger the edit form.  
+Form: Autofill the form with previous data, allowing the user to edit and save.  
+Outcome: Understand the process of performing update operations in MongoDB.  
