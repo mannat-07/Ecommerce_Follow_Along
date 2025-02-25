@@ -137,3 +137,8 @@ Backend: Write an endpoint to receive new data and update existing data in Mongo
 Frontend: Add an edit button on product cards to trigger the edit form.  
 Form: Autofill the form with previous data, allowing the user to edit and save.  
 Outcome: Understand the process of performing update operations in MongoDB.  
+
+**Milestone 14**
+
+Write an endpoint that will Delete the data form MongoDB using ID.  
+In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint.
