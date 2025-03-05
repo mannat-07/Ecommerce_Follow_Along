@@ -151,3 +151,10 @@ In frontend we will add an delete button to the product card. When click on dele
 Build a Nav component with links (Home, My-products, Add product, Cart).  
 Make it responsive and reusable across pages.  
 Outcome: Easy navigation between pages in a React app.  
+
+
+**Milestone 16**
+
+Create a new page to showcase the product details.  
+Add functionality for selecting quantity.  
+Implement an "Add to Cart" button.  
