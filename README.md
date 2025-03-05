@@ -75,6 +75,7 @@ Create login endpoint for credentials.
 Fetch user data from the database.
 Hash input password and compare with stored hash.
 
+
 **Milestone 8**
 
 Learning Goals:-
@@ -97,13 +98,13 @@ Steps:-
 Create a reusable card component.
 Set up a grid or flexbox layout for the homepage.
 
+
 **Milestone 9**
 
 In this milestone we have created
-
 Create the form for products
-
 This form will take multiple product images images as input
+
 
 **Milestone 10**
 
@@ -138,7 +139,15 @@ Frontend: Add an edit button on product cards to trigger the edit form.
 Form: Autofill the form with previous data, allowing the user to edit and save.  
 Outcome: Understand the process of performing update operations in MongoDB.  
 
+
 **Milestone 14**
 
 Write an endpoint that will Delete the data form MongoDB using ID.  
 In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint.
+
+
+**Milestone 15**
+
+Build a Nav component with links (Home, My-products, Add product, Cart).  
+Make it responsive and reusable across pages.  
+Outcome: Easy navigation between pages in a React app.  
