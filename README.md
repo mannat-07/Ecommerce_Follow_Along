@@ -164,3 +164,9 @@ Implement an "Add to Cart" button.
 
 Write the cart schema to store products.  
 Write an endpoint to store receive and store product details in cart.  
+
+
+**Milestone 18**
+
+Create an Backend endpoint for cart page.  
+Write and endpoint to get products inside cart for user.  
