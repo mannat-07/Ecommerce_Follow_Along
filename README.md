@@ -158,3 +158,9 @@ Outcome: Easy navigation between pages in a React app.
 Create a new page to showcase the product details.  
 Add functionality for selecting quantity.  
 Implement an "Add to Cart" button.  
+
+
+**Milestone 17**
+
+Write the cart schema to store products.  
+Write an endpoint to store receive and store product details in cart.  
