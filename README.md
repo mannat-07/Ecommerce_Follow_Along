@@ -202,3 +202,29 @@ Business Logic: Ensure that the quantity cannot go below 1 (or other logical lim
 - Verify Updates: Ensure that the frontend correctly reflects changes in quantity and price when users click the + and - buttons.
 
 - Check Backend: Test the backend endpoints to confirm that they correctly update the cart and handle errors 
+
+**Milestone 20**
+
+1. Create Backend Endpoint to Send User Data via Email:
+
+- Endpoint Functionality: Implement an API endpoint that retrieves all the necessary user data (profile photo, name, email, and addresses).
+- Email Delivery: Once the data is retrieved, send this information to the user's email address using an email service (e.g., SMTP, SendGrid, etc.).
+
+- Data Format: Ensure that the email includes a well-organized format of the user's profile data.
+
+2. Create Frontend Profile Page:
+
+- Profile Section: Display the user's profile photo, name, and email in one section at the top of the page.
+
+- Address Section: In a separate section, list the user’s addresses. If no addresses are found, display a message like "No address found."
+- Add Address Button: Include an "Add address" button that allows the user to add a new address.
+
+3. Handle Missing Data
+
+- No Addresses: If the user has no saved addresses, ensure that a message such as "No address found" is displayed in the address section.
+- Error Handling: Handle any errors that may occur in fetching user data and provide appropriate user feedback.
+
+4. Test the Functionality:
+
+- Profile Page: Test the profile page to ensure that user data is displayed correctly, including the photo, name, email, and addresses.
+- Email Functionality: Verify that the backend correctly sends the user data to the user's email address when triggered.
