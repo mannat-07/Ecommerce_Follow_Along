@@ -170,3 +170,35 @@ Write an endpoint to store receive and store product details in cart.
 
 Create an Backend endpoint for cart page.  
 Write and endpoint to get products inside cart for user.  
+
+**Milestone 19**
+
+1. Create Cart Frontend Page:
+
+- Display Products: Fetch and display all the products that the user has added to the cart from an existing backend endpoint (from Milestone 18).
+- Product Information: For each product, show the product name, price, quantity, and total price (quantity multiplied by price).
+
+Quantity Adjustment: For each product, include two buttons:
+
+- A "+" button to increase the quantity of the product.
+- A "-" button to decrease the quantity of the product.
+
+Update Total: Ensure the total price updates accordingly when the quantity changes.
+
+2. Create Backend Endpoints for Quantity Update:
+
+- Increase Quantity Endpoint: This endpoint should accept a request to increase the quantity of a specific product in the cart.
+- Decrease Quantity Endpoint: This endpoint should accept a request to decrease the quantity of a specific product in the cart.
+
+Business Logic: Ensure that the quantity cannot go below 1 (or other logical limits depending on the business rules). Additionally, the backend should handle updating the cart’s total cost as the quantity changes.
+
+3. Connect Frontend to Backend:
+
+- Frontend Communication: Use AJAX or Fetch API to send requests to the backend when a user clicks the "+" or "-" buttons for a product.
+
+- Dynamic Updates: After receiving a response from the backend, dynamically update the UI to reflect the new quantity and updated total price for the product in the cart.
+
+4. Test Functionality
+- Verify Updates: Ensure that the frontend correctly reflects changes in quantity and price when users click the + and - buttons.
+
+- Check Backend: Test the backend endpoints to confirm that they correctly update the cart and handle errors 
