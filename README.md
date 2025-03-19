@@ -148,3 +148,11 @@
 - **Navigate to Address Form:** Clicking "Add Address" in the profile should navigate to the address form page.
 
 ---
+
+### **Milestone 22: Add Address to User Collection**
+
+**Objective:** Implement a backend endpoint that will accept address data sent from the frontend address form.
+
+**Receive Address Data:** The backend should accept the address information (e.g., country, city, address1, address2, zip code, address type) from the frontend address form.
+**Update User Collection:** Add the received address to the address array inside the user collection in MongoDB.
+**Ensure Data Integrity:** Validate the address data before adding it to the user’s document to avoid invalid or incomplete entries.
