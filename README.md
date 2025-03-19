@@ -1,230 +1,150 @@
-# Ecommerce_Follow_Along
-Follow along project for sem 2.
+**Ecommerce Follow Along Project**
 
+---
 
-**Milestone 1**: *Project Overview*  
+### **Milestone 1: Project Overview**
+- Introduction to the MERN Stack structure.
+- Set up environment for future milestones.
+- Created a new repository for the follow-along project.
 
-In todays live session our mentor introduced us to overall structure of MERN Stack.
-He taught us the foundational steps to set up the environment for future milestones.
-We created a new repository for our follow along project.
+---
 
+### **Milestone 2: Project Setup**
+- **Organize Project:** Separate into frontend and backend folders.
+- **Set up React Frontend:** Create a React app for the user interface.
+- **Set up Node.js Backend:** Build a basic Node.js server.
+- **Configure Tailwind CSS:** Add for easy, modern styling.
+- **Build Login Page:** Design and develop the first page of the app.
 
-**Milestone 2**
+---
 
-Organize Your Project: Separate your files into two main folders—one for the frontend and one for the backend.
-Set Up React Frontend: Create a React app to build the user interface for your project.
-Set Up Node.js Backend: Build a basic Node.js server to prepare for adding APIs later.
-Configure Tailwind CSS: Add Tailwind CSS for easy, modern styling that works well on any screen size.
-Build Login Page: Design and develop the first page of your e-commerce app, focusing on both its look and functionality.
+### **Milestone 3: Backend Setup**
+- Organize backend code into dedicated folders.
+- Initialize Node.js server and set up MongoDB connection.
+- Implement basic error handling.
+- Update README to document progress.
 
+---
 
-**Milestone 3**
+### **Milestone 4: User Authentication**
+- **Create User Model:** Understand the MVC architecture and database interaction.
+- **Create User Controller:** Learn about controller's role in MVC.
+- **Enable and Configure Multer:** Set up Multer for handling file uploads.
 
-Set up dedicated folders for organizing backend code effectively.
-Initialize and configure a Node.js server to handle API requests.
-Connect your application to MongoDB to store and manage data.
-Implement basic error handling to ensure your server runs smoothly.
-Update the README file to document your progress.
+---
 
+### **Milestone 5: User Registration**
+- **Create Sign-Up Page:** Design a page for user registration (Name, Email, Password).
+- **Implement Form Validation:** Ensure correct data (valid email, secure password).
+- **Build Frontend:** Use HTML and CSS for design.
+- **Document Progress:** Update the README.
 
-**Milestone 4**
+---
 
-Created a User Model: Our mentor explained how a MODEL in MVC architecture works and how it interacts with database.
-Created a User Controller: We got to know the purpose of a controller in MVC.
-Enable and Configure Multer: In the live session mentor told us what is a multer and what is it used for and how it can be configured to handle file uploads.
+### **Milestone 6: Secure Password Storage**
+- **Encrypt Password with bcrypt:** Hash passwords during signup.
+- **Save Hashed Password in Database:** Store only the hashed password.
+- **Store Complete User Data:** Securely store user info along with the hashed password.
+- **Login with Hashed Password:** Use bcrypt to verify entered passwords during login.
 
+---
 
-**Milestone 5**
+### **Milestone 7: Login Authentication**
+- **Validate User Login:** Ensure proper login credentials validation.
+- **Why Encrypt Passwords:** Discuss security, privacy, and compliance.
+- **Login Authentication Process:** Use bcrypt to compare hashed passwords.
 
-Create a Sign-Up page: Users enter details (Name, Email, Password) to register.
-Implement form validation: Ensure correct data format (e.g., valid email and secure password).
-Build frontend: Use HTML and CSS for the design.
-Document progress: Update the README file with what I've accomplished.
+---
 
+### **Milestone 8: Product Card Creation**
+- **Create Product Card Component:** Display products visually and clearly.
+- **Reusable Design:** Create a card component for multiple products.
+- **Layout:** Set up a grid or flexbox layout for displaying products.
 
-**Milestone 6**
+---
 
-Encrypt Password with bcrypt..
-Use bcrypt to hash the user's password during signup, ensuring it is stored securely and not in plain text.
-Save Hashed Password in Database..
-Only store the hashed version of the password in the database. Never save the plain text password.
-Store Complete User Data..
-Save the user's other information (e.g., name, email) along with the hashed password securely.
-Login with Hashed Password..
-During login, compare the entered password with the hashed password in the database using bcrypt for verification.
+### **Milestone 9: Product Form**
+- **Create Product Form:** Allow multiple product images to be uploaded.
 
-**Milestone 7** 
+---
 
-Learning Goals:-
-Validate user login credentials.
-Securely compare encrypted passwords.
+### **Milestone 10: Product Schema**
+- **Write Product Schema:** Define the structure for product data.
+- **Create Endpoint to Store Product Details:** Store product data in MongoDB.
 
-Why Encrypt Passwords..?
-Security: Protects data if the database is breached.
-Privacy: Prevents storing plain-text passwords.
-Compliance: Follows security standards (e.g., GDPR, PCI-DSS).
-Prevention: Hardens password theft with hashing.
+---
 
-Login Authentication Process:-
-User enters credentials (email/username & password).
-Check if the user exists in the database.
-Use bcrypt to compare hashed passwords.
+### **Milestone 11: Display Products**
+- **Create Endpoint to Fetch Product Data:** Extract and send data from MongoDB.
+- **Display Data Dynamically:** Use the product card component to render products.
 
-Steps to Implement:-
-Create login endpoint for credentials.
-Fetch user data from the database.
-Hash input password and compare with stored hash.
+---
 
+### **Milestone 12: Filter and Display Products**
+- **Write Endpoint to Filter Products:** Filter product data by email and send from MongoDB.
+- **Display Filtered Data on Frontend:** Render products using dynamic cards.
 
-**Milestone 8**
+---
 
-Learning Goals:-
-Create a card component for products.
-Display product cards on the homepage.
+### **Milestone 13: Update Product Data**
+- **Update Data in MongoDB:** Write endpoint to update product details.
+- **Edit Product Button:** Allow product data to be edited.
+- **Autofill Form:** Pre-fill product data for editing.
 
-Why Create Card Components..?
-Showcase products clearly and visually.
-Reusable design across pages.
-Improves user experience and interaction.
-Keeps the homepage organized.
+---
 
-Displaying Multiple Product Cards:-
-Design a dynamic card component using props.
-Use array mapping to render multiple cards.
-Pass product info (name, price, image) to each card.
-Ensure consistent layout for all cards.
+### **Milestone 14: Delete Product**
+- **Create Endpoint to Delete Products:** Delete product data from MongoDB using ID.
+- **Delete Button on Product Card:** Send product ID to the server for deletion.
 
-Steps:-
-Create a reusable card component.
-Set up a grid or flexbox layout for the homepage.
+---
 
+### **Milestone 15: Navigation Component**
+- **Build Nav Component:** Add links (Home, My Products, Add Product, Cart).
+- **Make Responsive:** Ensure navigation works across pages.
 
-**Milestone 9**
+---
 
-In this milestone we have created
-Create the form for products
-This form will take multiple product images images as input
+### **Milestone 16: Product Detail Page**
+- **Create Product Detail Page:** Display product details.
+- **Select Quantity and Add to Cart:** Add functionality to select quantity and add product to cart.
 
+---
 
-**Milestone 10**
+### **Milestone 17: Cart Schema**
+- **Create Cart Schema:** Design a schema to store product details in the cart.
+- **Write Endpoint for Cart Data:** Store and retrieve cart data from MongoDB.
 
-In this milestone we have learnt how to write product schema.
+---
 
-Learnt how to create an end point to validate and store product details in mongodb.
+### **Milestone 18: Cart Page Backend**
+- **Create Endpoint for Cart Page:** Retrieve products in the cart for the user.
 
+---
 
-**Milestone 11**
+### **Milestone 19: Cart Frontend and Quantity Update**
+- **Create Cart Frontend Page:** Display products in the cart with product name, price, and total price.
+- **Quantity Adjustment:** Include "+" and "-" buttons to adjust the product quantity.
+- **Update Total Price:** Ensure the total updates as the quantity changes.
+- **Backend Endpoints for Quantity Update:**
+  - Increase/Decrease Quantity endpoints.
+  - Ensure quantity doesn't go below 1.
+- **Frontend Communication:** Use AJAX/Fetch to dynamically update the cart.
 
-In this milestone we have learnt how to"
+---
 
-Write an endpoint that will send data from extract and send data from mongodb.
+### **Milestone 20: User Profile and Email**
+- **Create Backend Endpoint to Send User Data via Email:** Send user data (profile photo, name, email, addresses) to user's email.
+- **Create Profile Page:** Display user profile (photo, name, email) and address list.
+- **Add Address Button:** Allow the user to add new addresses.
+- **Handle Missing Data:** Display "No address found" if no addresses exist.
+- **Test Functionality:** Verify profile page and email functionality.
 
-Receive data at frontend -How to display that data dynamically using product card created earlier.
+---
 
+### **Milestone 21: Address Form**
+- **Create Address Form Page:** Design and implement the frontend form for address input.
+- **Store Address Data in State:** Store the inputted address data in a state.
+- **Navigate to Address Form:** Clicking "Add Address" in the profile should navigate to the address form page.
 
-**Milestone 12**
-
-In this milestone we have learnt how to write an endpoint that will send data by filtering with my mail and send data from mongodb.
-
-Also how to receive data at frontend.
-
-How to display that data dynamically using product card created earlier.
-
-
-**Milestone 13**
-
-Goal: Learn how to update existing data in MongoDB and edit product details.  
-Backend: Write an endpoint to receive new data and update existing data in MongoDB.  
-Frontend: Add an edit button on product cards to trigger the edit form.  
-Form: Autofill the form with previous data, allowing the user to edit and save.  
-Outcome: Understand the process of performing update operations in MongoDB.  
-
-
-**Milestone 14**
-
-Write an endpoint that will Delete the data form MongoDB using ID.  
-In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint.
-
-
-**Milestone 15**
-
-Build a Nav component with links (Home, My-products, Add product, Cart).  
-Make it responsive and reusable across pages.  
-Outcome: Easy navigation between pages in a React app.  
-
-
-**Milestone 16**
-
-Create a new page to showcase the product details.  
-Add functionality for selecting quantity.  
-Implement an "Add to Cart" button.  
-
-
-**Milestone 17**
-
-Write the cart schema to store products.  
-Write an endpoint to store receive and store product details in cart.  
-
-
-**Milestone 18**
-
-Create an Backend endpoint for cart page.  
-Write and endpoint to get products inside cart for user.  
-
-**Milestone 19**
-
-1. Create Cart Frontend Page:
-
-- Display Products: Fetch and display all the products that the user has added to the cart from an existing backend endpoint (from Milestone 18).
-- Product Information: For each product, show the product name, price, quantity, and total price (quantity multiplied by price).
-
-Quantity Adjustment: For each product, include two buttons:
-
-- A "+" button to increase the quantity of the product.
-- A "-" button to decrease the quantity of the product.
-
-Update Total: Ensure the total price updates accordingly when the quantity changes.
-
-2. Create Backend Endpoints for Quantity Update:
-
-- Increase Quantity Endpoint: This endpoint should accept a request to increase the quantity of a specific product in the cart.
-- Decrease Quantity Endpoint: This endpoint should accept a request to decrease the quantity of a specific product in the cart.
-
-Business Logic: Ensure that the quantity cannot go below 1 (or other logical limits depending on the business rules). Additionally, the backend should handle updating the cart’s total cost as the quantity changes.
-
-3. Connect Frontend to Backend:
-
-- Frontend Communication: Use AJAX or Fetch API to send requests to the backend when a user clicks the "+" or "-" buttons for a product.
-
-- Dynamic Updates: After receiving a response from the backend, dynamically update the UI to reflect the new quantity and updated total price for the product in the cart.
-
-4. Test Functionality
-- Verify Updates: Ensure that the frontend correctly reflects changes in quantity and price when users click the + and - buttons.
-
-- Check Backend: Test the backend endpoints to confirm that they correctly update the cart and handle errors 
-
-**Milestone 20**
-
-1. Create Backend Endpoint to Send User Data via Email:
-
-- Endpoint Functionality: Implement an API endpoint that retrieves all the necessary user data (profile photo, name, email, and addresses).
-- Email Delivery: Once the data is retrieved, send this information to the user's email address using an email service (e.g., SMTP, SendGrid, etc.).
-
-- Data Format: Ensure that the email includes a well-organized format of the user's profile data.
-
-2. Create Frontend Profile Page:
-
-- Profile Section: Display the user's profile photo, name, and email in one section at the top of the page.
-
-- Address Section: In a separate section, list the user’s addresses. If no addresses are found, display a message like "No address found."
-- Add Address Button: Include an "Add address" button that allows the user to add a new address.
-
-3. Handle Missing Data
-
-- No Addresses: If the user has no saved addresses, ensure that a message such as "No address found" is displayed in the address section.
-- Error Handling: Handle any errors that may occur in fetching user data and provide appropriate user feedback.
-
-4. Test the Functionality:
-
-- Profile Page: Test the profile page to ensure that user data is displayed correctly, including the photo, name, email, and addresses.
-- Email Functionality: Verify that the backend correctly sends the user data to the user's email address when triggered.
+---
