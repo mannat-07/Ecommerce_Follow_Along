@@ -3,6 +3,7 @@
 ---
 
 ### **Milestone 1: Project Overview**
+
 - Introduction to the MERN Stack structure.
 - Set up environment for future milestones.
 - Created a new repository for the follow-along project.
@@ -10,6 +11,7 @@
 ---
 
 ### **Milestone 2: Project Setup**
+
 - **Organize Project:** Separate into frontend and backend folders.
 - **Set up React Frontend:** Create a React app for the user interface.
 - **Set up Node.js Backend:** Build a basic Node.js server.
@@ -19,6 +21,7 @@
 ---
 
 ### **Milestone 3: Backend Setup**
+
 - Organize backend code into dedicated folders.
 - Initialize Node.js server and set up MongoDB connection.
 - Implement basic error handling.
@@ -27,6 +30,7 @@
 ---
 
 ### **Milestone 4: User Authentication**
+
 - **Create User Model:** Understand the MVC architecture and database interaction.
 - **Create User Controller:** Learn about controller's role in MVC.
 - **Enable and Configure Multer:** Set up Multer for handling file uploads.
@@ -34,6 +38,7 @@
 ---
 
 ### **Milestone 5: User Registration**
+
 - **Create Sign-Up Page:** Design a page for user registration (Name, Email, Password).
 - **Implement Form Validation:** Ensure correct data (valid email, secure password).
 - **Build Frontend:** Use HTML and CSS for design.
@@ -42,6 +47,7 @@
 ---
 
 ### **Milestone 6: Secure Password Storage**
+
 - **Encrypt Password with bcrypt:** Hash passwords during signup.
 - **Save Hashed Password in Database:** Store only the hashed password.
 - **Store Complete User Data:** Securely store user info along with the hashed password.
@@ -50,6 +56,7 @@
 ---
 
 ### **Milestone 7: Login Authentication**
+
 - **Validate User Login:** Ensure proper login credentials validation.
 - **Why Encrypt Passwords:** Discuss security, privacy, and compliance.
 - **Login Authentication Process:** Use bcrypt to compare hashed passwords.
@@ -57,6 +64,7 @@
 ---
 
 ### **Milestone 8: Product Card Creation**
+
 - **Create Product Card Component:** Display products visually and clearly.
 - **Reusable Design:** Create a card component for multiple products.
 - **Layout:** Set up a grid or flexbox layout for displaying products.
@@ -64,29 +72,34 @@
 ---
 
 ### **Milestone 9: Product Form**
+
 - **Create Product Form:** Allow multiple product images to be uploaded.
 
 ---
 
 ### **Milestone 10: Product Schema**
+
 - **Write Product Schema:** Define the structure for product data.
 - **Create Endpoint to Store Product Details:** Store product data in MongoDB.
 
 ---
 
 ### **Milestone 11: Display Products**
+
 - **Create Endpoint to Fetch Product Data:** Extract and send data from MongoDB.
 - **Display Data Dynamically:** Use the product card component to render products.
 
 ---
 
 ### **Milestone 12: Filter and Display Products**
+
 - **Write Endpoint to Filter Products:** Filter product data by email and send from MongoDB.
 - **Display Filtered Data on Frontend:** Render products using dynamic cards.
 
 ---
 
 ### **Milestone 13: Update Product Data**
+
 - **Update Data in MongoDB:** Write endpoint to update product details.
 - **Edit Product Button:** Allow product data to be edited.
 - **Autofill Form:** Pre-fill product data for editing.
@@ -94,35 +107,41 @@
 ---
 
 ### **Milestone 14: Delete Product**
+
 - **Create Endpoint to Delete Products:** Delete product data from MongoDB using ID.
 - **Delete Button on Product Card:** Send product ID to the server for deletion.
 
 ---
 
 ### **Milestone 15: Navigation Component**
+
 - **Build Nav Component:** Add links (Home, My Products, Add Product, Cart).
 - **Make Responsive:** Ensure navigation works across pages.
 
 ---
 
 ### **Milestone 16: Product Detail Page**
+
 - **Create Product Detail Page:** Display product details.
 - **Select Quantity and Add to Cart:** Add functionality to select quantity and add product to cart.
 
 ---
 
 ### **Milestone 17: Cart Schema**
+
 - **Create Cart Schema:** Design a schema to store product details in the cart.
 - **Write Endpoint for Cart Data:** Store and retrieve cart data from MongoDB.
 
 ---
 
 ### **Milestone 18: Cart Page Backend**
+
 - **Create Endpoint for Cart Page:** Retrieve products in the cart for the user.
 
 ---
 
 ### **Milestone 19: Cart Frontend and Quantity Update**
+
 - **Create Cart Frontend Page:** Display products in the cart with product name, price, and total price.
 - **Quantity Adjustment:** Include "+" and "-" buttons to adjust the product quantity.
 - **Update Total Price:** Ensure the total updates as the quantity changes.
@@ -134,6 +153,7 @@
 ---
 
 ### **Milestone 20: User Profile and Email**
+
 - **Create Backend Endpoint to Send User Data via Email:** Send user data (profile photo, name, email, addresses) to user's email.
 - **Create Profile Page:** Display user profile (photo, name, email) and address list.
 - **Add Address Button:** Allow the user to add new addresses.
@@ -143,6 +163,7 @@
 ---
 
 ### **Milestone 21: Address Form**
+
 - **Create Address Form Page:** Design and implement the frontend form for address input.
 - **Store Address Data in State:** Store the inputted address data in a state.
 - **Navigate to Address Form:** Clicking "Add Address" in the profile should navigate to the address form page.
@@ -151,8 +172,7 @@
 
 ### **Milestone 22: Add Address to User Collection**
 
-**Objective:** Implement a backend endpoint that will accept address data sent from the frontend address form.
-
-**Receive Address Data:** The backend should accept the address information (e.g., country, city, address1, address2, zip code, address type) from the frontend address form.
-**Update User Collection:** Add the received address to the address array inside the user collection in MongoDB.
-**Ensure Data Integrity:** Validate the address data before adding it to the user’s document to avoid invalid or incomplete entries.
+- **Objective:** Implement a backend endpoint that will accept address data sent from the frontend address form.
+- **Receive Address Data:** The backend should accept the address information (e.g., country, city, address1, address2, zip code, address type) from the frontend address form.
+- **Update User Collection:** Add the received address to the address array inside the user collection in MongoDB.
+- **Ensure Data Integrity:** Validate the address data before adding it to the user’s document to avoid invalid or incomplete entries.
