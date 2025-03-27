@@ -176,3 +176,13 @@
 - **Receive Address Data:** The backend should accept the address information (e.g., country, city, address1, address2, zip code, address type) from the frontend address form.
 - **Update User Collection:** Add the received address to the address array inside the user collection in MongoDB.
 - **Ensure Data Integrity:** Validate the address data before adding it to the user’s document to avoid invalid or incomplete entries.
+
+---
+
+### **Milestone 23: Place Order and Select Address**
+
+- **Create Place Order Button in Cart:** Add a "Place Order" button inside the cart page that navigates to the select address page when clicked.
+- **Create Select Address Page:** Implement a page that displays all available user addresses with an option to select one.
+- **Backend Endpoint for Addresses:** Create a backend endpoint that returns all the addresses associated with the user.
+
+---
