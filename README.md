@@ -186,3 +186,13 @@
 - **Backend Endpoint for Addresses:** Create a backend endpoint that returns all the addresses associated with the user.
 
 ---
+
+### **Milestone 24: Display Order Summary and Place Order**
+
+- **Objective:** Implement the order summary page to display the details of the user's order and allow them to place the order.
+- **Display Products in Cart:** Show all the products the user is ordering, including their details such as name, quantity, and price.
+- **Display Selected Address:** Show the selected delivery address that the user chose during the checkout process.
+- **Display Total Cart Value:** Show the total value of the cart, including all items and any applicable taxes or discounts.
+- **Place Order Button:** Add a "Place Order" button at the bottom of the page, allowing the user to confirm their order and proceed with the purchase.
+
+---
