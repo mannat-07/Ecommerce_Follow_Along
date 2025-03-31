@@ -196,3 +196,13 @@
 - **Place Order Button:** Add a "Place Order" button at the bottom of the page, allowing the user to confirm their order and proceed with the purchase.
 
 ---
+
+### **Milestone 25: Order Creation and Storing Details**
+
+- **Create Order Endpoint:** Develop an endpoint that receives product details, user information, and address details.
+- **Retrieve User _id:** Using the user's email, fetch the _id of the user from the database.
+- **Unique Order for Each Product:** Create a separate order for each product with the same address.
+- **Store Order in MongoDB:** Use the order schema to store the order details in the MongoDB order collection.
+
+---
+
