@@ -206,3 +206,10 @@
 
 ---
 
+### **Milestone 26: Retrieve User Orders**
+
+- **Create Endpoint for User Orders:** Develop an endpoint that receives the user's email address.
+- **Retrieve User _id:** Use the provided email to fetch the user's _id from the database.
+- **Fetch All User Orders:** Using the user's _id, retrieve all the orders associated with that user.
+- **Send Orders in Response:** Return all the retrieved orders in the response.
+
