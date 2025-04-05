@@ -213,3 +213,12 @@
 - **Fetch All User Orders:** Using the user's _id, retrieve all the orders associated with that user.
 - **Send Orders in Response:** Return all the retrieved orders in the response.
 
+---
+
+### **Milestone 27: My Orders Page**
+
+- **Create My Orders Page:** Develop a new page for displaying user orders.
+- **Send GET Request to Endpoint:** Send a GET request to the "my-orders" endpoint with the user's email to fetch their orders.
+- **Retrieve User Orders:** Use the provided email to retrieve all orders associated with the user.
+- **Display Orders on the Page:** Display all the retrieved user orders on the "my-orders" page.
+- **Add My Orders to Navbar:** Add a link to the "my-orders" page in the navbar for easy navigation.
