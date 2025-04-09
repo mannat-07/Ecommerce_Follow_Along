@@ -234,3 +234,14 @@
 - **Save the Updated Order Status:** Save the updated order status in the database.
 
 ---
+
+### **Milestone 29: PayPal Integration**
+
+1. **Create PayPal Account:** Set up a PayPal account and log into the PayPal Developer Dashboard.
+2. **Create Sandbox Account:** In the dashboard, create a sandbox account and save the UserID.
+3. **Get Client ID:** Copy and save the Client ID from the sandbox account.
+4. **Order Confirmation Page:** Add two payment options (COD and online payment) using radio buttons.
+5. **Display PayPal Buttons:** When "online payment" is selected, show PayPal payment buttons.
+6. **Next Milestone:** In the following milestone, implement functionality to use PayPal payment buttons.
+
+---
