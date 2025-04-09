@@ -222,3 +222,15 @@
 - **Retrieve User Orders:** Use the provided email to retrieve all orders associated with the user.
 - **Display Orders on the Page:** Display all the retrieved user orders on the "my-orders" page.
 - **Add My Orders to Navbar:** Add a link to the "my-orders" page in the navbar for easy navigation.
+
+---
+
+### **Milestone 28: Cancel Order Feature**
+
+- **Add Cancel Order Button:** Implement a "Cancel Order" button on the "my-orders" page for each order.
+- **Check Order Status:** Ensure the button is hidden if the order is already canceled.
+- **Create Endpoint for Canceling Order:** Develop an endpoint that accepts the order ID.
+- **Mark Order as Canceled:** Use the provided order ID to fetch the order and update its status to "canceled."
+- **Save the Updated Order Status:** Save the updated order status in the database.
+
+---
