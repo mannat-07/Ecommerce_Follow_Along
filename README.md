@@ -256,3 +256,12 @@
 
 ---
 
+### **Milestone 31: Set Up Global State with Redux**
+- **Install Redux Package:** Install the react-redux package using NPM.  
+- **Create Store Folder:** Create a store folder with two files: store.js and userActions.js.  
+- **Configure Store:** In store.js, set up a Redux store with a userReducer to manage the user's email.  
+- **Create Action:** In userActions.js, define a setEmail function to update the global email state.  
+- **Wrap App with Provider:** In index.js, wrap the <App /> component with the <Provider /> and pass in the store.
+
+---
+
