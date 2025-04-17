@@ -237,11 +237,22 @@
 
 ### **Milestone 29: PayPal Integration**
 
-1. **Create PayPal Account:** Set up a PayPal account and log into the PayPal Developer Dashboard.
-2. **Create Sandbox Account:** In the dashboard, create a sandbox account and save the UserID.
-3. **Get Client ID:** Copy and save the Client ID from the sandbox account.
-4. **Order Confirmation Page:** Add two payment options (COD and online payment) using radio buttons.
-5. **Display PayPal Buttons:** When "online payment" is selected, show PayPal payment buttons.
-6. **Next Milestone:** In the following milestone, implement functionality to use PayPal payment buttons.
+- **Create PayPal Account:** Set up a PayPal account and log into the PayPal Developer Dashboard.
+- **Create Sandbox Account:** In the dashboard, create a sandbox account and save the UserID.
+- **Get Client ID:** Copy and save the Client ID from the sandbox account.
+- **Order Confirmation Page:** Add two payment options (COD and online payment) using radio buttons.
+- **Display PayPal Buttons:** When "online payment" is selected, show PayPal payment buttons.
+- **Next Milestone:** In the following milestone, implement functionality to use PayPal payment buttons.
 
 ---
+
+### **Milestone 30: Implement Online Payment with PayPal**
+
+- **Install PayPal SDK Package:** Install the react-paypal-js package using NPM.  
+- **Set Up PayPalScriptProvider:** Use the PayPalScriptProvider component to load the PayPal SDK and display payment options.  
+- **Use Client ID:** Provide your previously saved PayPal sandbox Client ID to the PayPalScriptProvider.  
+- **Enable Online Payment Options:** Integrate PayPal payment methods such as credit or debit card on the order confirmation page.  
+- **Test in Sandbox Mode:** Ensure the payment flow works correctly using the sandbox account.
+
+---
+
