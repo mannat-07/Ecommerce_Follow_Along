@@ -269,3 +269,13 @@
 - **Store Email on Login:** Use dispatch in the Login page to save the user's email in the global state.  
 - **Access Email Elsewhere:** Use useSelector on other pages to retrieve the stored email.  
 - **Enable Consistent User State:** Ensures the email is accessible across all components in the app.
+
+---
+
+### **Milestone 33: JWT Token & Cookie Storage**  
+- **Install JWT Package:** Download the jsonwebtoken package using NPM.  
+- **Create JWT Token:** Use the sign method to generate a token with the user's email and ID.  
+- **Set Expiry:** Define maxAge to control how long the token remains valid.  
+- **Store in Cookie:** Add the token as a cookie in the response to store it in the browser.
+
+---
