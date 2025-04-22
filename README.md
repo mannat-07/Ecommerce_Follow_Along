@@ -265,3 +265,7 @@
 
 ---
 
+### **Milestone 32: Manage Email State Globally**  
+- **Store Email on Login:** Use dispatch in the Login page to save the user's email in the global state.  
+- **Access Email Elsewhere:** Use useSelector on other pages to retrieve the stored email.  
+- **Enable Consistent User State:** Ensures the email is accessible across all components in the app.
