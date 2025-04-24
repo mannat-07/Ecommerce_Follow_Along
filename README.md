@@ -279,3 +279,12 @@
 - **Store in Cookie:** Add the token as a cookie in the response to store it in the browser.
 
 ---
+
+### **Milestone 34: JWT Token Validation & Page Protection**  
+- **Get Token from Cookie:** Extract the JWT token from the browser cookies on each page load.  
+- **Send Token to Backend:** Include the token in requests to the server to validate user identity.  
+- **Create Middleware:** In the backend, write a middleware function to verify the token using the JWT package.  
+- **Restrict Page Access:** Use the token validation to block access to pages unless the user is authenticated.  
+- **Apply Globally:** Ensure this validation logic runs on all protected pages to enforce login requirements.  
+
+---
