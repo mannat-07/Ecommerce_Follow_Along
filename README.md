@@ -288,3 +288,9 @@
 - **Apply Globally:** Ensure this validation logic runs on all protected pages to enforce login requirements.  
 
 ---
+
+### **Milestone 35: Deployment**  
+- **Deploy Backend:** Host my backend using render deployment service and get the live URL.   
+- **Update Frontend:** Replace localhost in your frontend code with the deployed backend URL.  
+- **Deploy Frontend:** Host your frontend using any deployment service.  
+- **Verify Deployment:** Ensure both frontend and backend are live and functioning correctly.

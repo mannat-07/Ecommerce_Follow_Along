@@ -2,6 +2,7 @@
 // Mongoose is a Node.js library used for interacting with a MongoDB database.
 const mongoose = require("mongoose"); 
 
+
 // Define the function to establish a connection to the MongoDB database
 const connectDatabase = () => {
     mongoose
